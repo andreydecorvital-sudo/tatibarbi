@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f9d9df"/><stop offset="1" stop-color="#eaa9b8"/></linearGradient>
+    <radialGradient id="candy" cx="35%" cy="25%"><stop stop-color="#fff5e8"/><stop offset=".55" stop-color="#e5b06f"/><stop offset="1" stop-color="#a85f31"/></radialGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#5a2030" flood-opacity=".22"/></filter>
+  </defs>
+  <rect width="900" height="1100" fill="url(#bg)"/>
+  <circle cx="760" cy="160" r="180" fill="#fff" opacity=".18"/>
+  <circle cx="130" cy="930" r="220" fill="#fff" opacity=".15"/>
+  <ellipse cx="455" cy="670" rx="320" ry="180" fill="#fff8f0" filter="url(#shadow)"/>
+  <g filter="url(#shadow)">
+    <circle cx="320" cy="610" r="86" fill="url(#candy)"/><circle cx="470" cy="560" r="92" fill="url(#candy)"/><circle cx="610" cy="635" r="82" fill="url(#candy)"/>
+    <circle cx="390" cy="715" r="88" fill="url(#candy)"/><circle cx="540" cy="730" r="94" fill="url(#candy)"/>
+  </g>
+  <g fill="none" stroke="#fff" stroke-width="7" opacity=".55"><path d="M130 210c120-110 230-120 340-20"/><path d="M620 890c70 50 110 110 120 180"/></g>
+  <g fill="#fff6f8"><path d="M665 258l18 40 40 18-40 18-18 40-18-40-40-18 40-18z"/><path d="M190 380l10 22 22 10-22 10-10 22-10-22-22-10 22-10z"/></g>
+</svg>
